@@ -1,0 +1,2 @@
+- we make user go to auth table
+- we get user auth table id and link that id to our user data in firebase.

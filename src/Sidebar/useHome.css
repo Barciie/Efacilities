@@ -1,0 +1,42 @@
+.header {
+    text-align: center;
+    /* border-style: solid;
+    border-color: #f2f2f2; */
+    font-size: 25px;
+    /* background-color: #f2f2f2; */
+    padding: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* box-shadow:1px -3px 5px #d4ded4; */
+    
+  }
+  .images {
+  
+    float: left;
+      width: 32%;
+      padding: 1px;
+    text-align: center;
+  
+  }
+  
+  img {
+    max-width:90px;
+    height:90px;
+  }
+  .column::after {
+      content: "";
+      display: table;
+      clear: both;
+    
+  }
+  
+  .tags {
+    text-align: center;
+
+  }
+  
+  /* .col {
+    max-width:1000px;
+    height:1000px;
+
+  } */
